@@ -2,7 +2,7 @@ import { tileNumberArray } from "../utils/tileNumberArray";
 
 export default function GameGrid() {
   return (
-    <div className="py-5">
+    <div className="py-3">
       <div className="max-w-md mx-auto content-center grid-box gap-1.5">
         {tileNumberArray.map((item) => {
           return (
