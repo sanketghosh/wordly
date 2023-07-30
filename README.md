@@ -32,7 +32,7 @@ To run Wordly locally on your machine, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/wordly.git
+git clone https://github.com/sanketghosh/wordly.git
 cd wordly
 ```
 
