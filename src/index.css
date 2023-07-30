@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans bg-gray-950 text-gray-200;
+  }
+}
+
+body {
+  @apply min-h-screen max-w-lg mx-auto px-3;
+}
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(5, 4.5em);
+  grid-template-rows: repeat(6, 4.5em);
+}
