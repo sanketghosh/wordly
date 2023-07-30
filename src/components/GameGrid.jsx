@@ -8,7 +8,7 @@ export default function GameGrid() {
           return (
             <div
               key={item}
-              className="text-2xl border-2 border-gray-700 flex items-center justify-center p-4 rounded-[5px] text-gray-200 font-extrabold select-none uppercase"
+              className="text-xl md:text-2xl border-2 border-gray-800 flex items-center justify-center p-4 rounded-[5px] font-bold md:font-extrabold  uppercase"
             ></div>
           );
         })}

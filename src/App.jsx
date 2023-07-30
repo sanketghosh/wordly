@@ -22,7 +22,7 @@ export default function App() {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [setSolution]);
 
   console.log(solution);
 
@@ -31,6 +31,7 @@ export default function App() {
       <Header />
       <GameGrid />
       <KeyBoard />
+      {/* {solution && <p>{solution}</p>} */}
     </main>
   );
 }
